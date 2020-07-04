@@ -1,0 +1,27 @@
+h1{
+    color: red;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.page{
+    padding: 0px;
+}
+
+.navigationBar{
+   
+    background-color: black;
+    font: 300;
+    color: white;
+    height:  40px;
+}
+.hamburger{
+    color: white;
+    padding-right: 10px;
+}
+.logo{
+    font-weight: 500;
+    font-size: large ;
+    margin: 0px 5px 0px 5px;
+}
