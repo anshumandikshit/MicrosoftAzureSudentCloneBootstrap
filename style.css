@@ -106,6 +106,40 @@ padding: 20px;
     margin-left: 5px;
 }
 
+.footer{
+    background-color: rgb(26,26,31);
+    
+}
+
+.social-media{
+    margin: 10px 5px 10px 5px;
+}
+.footer-title{
+    color: white;
+}
+.social-media-icon{
+    display: flex;
+    flex-direction: column;
+    color: rgb(78,88,93);
+}
+
+.footer-items{
+    margin: 10px 5px 10px 5px;
+    width: 300px;
+}
+.item{
+    color: rgb(83,83,84);
+    list-style: none;
+}
+.item>ul{
+    list-style: none;
+    padding: 0;
+}
+
+.copy-right{
+    color: white;
+    font-size: smaller;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -117,4 +151,13 @@ padding: 20px;
     .productCard {
         width: 100%;
       }
+
+      .social-media-icon{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-items{
+        margin: 10px 5px 10px 5px;
+        width: 100%;
+    }
   }
